@@ -9,11 +9,12 @@
     <% @contacts.each do |contact| %>
       <li><ul>
         <li> Name: <%= contact.name %></li>
-        <li> Addres: <%= contact.addres %></li>
+        <li> Address: <%= contact.address %></li>
         <li> Phone: <%= contact.phone_number %></li>
         <li> Email: <%= contact.email %></li>
       </ul></li>   
     <% end %>
   </ul>
+  <a href="/new"> Add Contact</a>
 </body>
 </html>
